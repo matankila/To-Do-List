@@ -1,0 +1,75 @@
+span{
+	margin: 0 auto;
+	font-size:30px;
+	    color: white;
+}
+
+ul{
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 0;
+
+ }
+ul li
+{
+    display:block;
+    font-size:20px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 1.16%;
+    padding-left: 0;
+    padding-bottom: 5.338px;
+    transition: all 2s;
+}
+input{
+	font-size: 20px;
+	margin:0 auto; 
+	margin-top: 0; 
+	width: 100%;
+	border: none;
+}
+body{
+	background-color: #1fc8db;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+i{
+	color: white;
+}
+/*contain the span hader and the plus sign */
+.header{
+    background: steelblue;
+    text-align: left;
+    width: 30%;
+    margin: 0 auto ;
+    margin-top: 50px;
+    max-width: 700px; 
+
+}
+/*contain the ul*/
+.todoContent{
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    background: rgba(0,0,0,0.1);
+    margin: 0 auto; 
+    width: 30%;
+}
+/*id to change trash settings */
+#trash{
+	background: red;
+	size: 1.6%;
+	padding: 5.338px;
+	display: none;
+}
+/*id to change plus sign settings */
+#plus{
+	float: right;
+	padding-top: 10px;
+	color: white;
+	font-size: 20px;
+	padding: 1.66%;
+}
