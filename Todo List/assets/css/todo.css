@@ -1,0 +1,79 @@
+ul{
+    list-style: none;
+    font-size: 20px;
+    margin: 0 ;
+    padding: 0;
+ }
+li{
+    font-size:20px;
+    text-align: left;
+    margin: 0 auto;
+    background: #ffff;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+li:nth-child(2n){
+    background: #f7f7f7;
+}
+input{
+	font-size: 18px;
+	margin:0 auto; 
+    padding: 13px 13px 13px 20px; 
+	width: 100%;
+	border: none;
+    background: #f7f7f7;
+    box-sizing: border-box;
+    color: #2980b9;
+}
+body{
+	background-color: #1fc8db;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto';
+}
+h1{
+    background: #2980b9;
+    margin: 0 auto;
+    font-size:24px;
+    color: white;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 100px;
+}
+.container
+{
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    background: #f7f7f7;
+    margin: 0 auto; 
+    width: 20%;
+}
+/*id to change trash settings */
+#trash{
+    opacity: 0;
+	background: red;
+    color: white;
+    height: 30px;
+    width: 0;
+	display: inline-block;
+    text-align: center;
+    margin:0;
+    padding-top:10px; 
+}
+/*id to change plus sign settings */
+#plus{
+	float: right;
+	color: white;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
